@@ -51,6 +51,8 @@ npm run dev
 
 Frontend runs at `http://localhost:5173` by default.
 
+If your backend runs on a different host/port, set `VITE_API_URL` in `frontend/.env`.
+
 ## API Endpoints
 
 - `GET /tasks` - Return all tasks
